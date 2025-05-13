@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector("#btn2").addEventListener('click', function () {
         const img = document.querySelector("#imagem");
         img.src = img.src.includes("cachorro.jpeg") ? "cavalo.jpeg" : "cachorro.jpeg";
-        img.style.width = "300px";
+        img.style.width = "320px";
     });
 
     document.querySelector("#btn3").addEventListener('click', function () {
